@@ -1,3 +1,2 @@
 @echo off
-mvnw.cmd clean install
-docker compose up -d
+docker "compose" "up" "-d"
